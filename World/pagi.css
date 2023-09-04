@@ -1,0 +1,55 @@
+body{
+
+    background-color: #fffbe0;
+}
+
+#topo {
+
+background-image: url('terra.jpg');
+background-repeat: no-repeat;
+height: 650px;
+}
+h1{
+   padding: 90px;
+    
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+    p{
+        margin: 80px;
+  text-align: center;
+    color: rgb(22, 9, 2);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    }
+    .botoes{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: (228, 255, 184);
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+       
+    }
+    .buton{
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+  
+    }
+    a:link, a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 15px;
+      }
+      
+
+

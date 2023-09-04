@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=H, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GREENWORLD</title>
+</head>
+<body>
+  <h1>SEJAM BEM-VINDOS À GREENWORLD</h1>
+  <P>SITE ESPECIFICO PARA INFORMAÇÕES REFERENTES AS FAZENDAS DIGITAIS</P>
+   <div id="logo">
+    <img src="loggo.jpeg" alt="HTML tutorial" style="width: 350px;;height: auto;">
+   </div>
+                   
+                
+        
+
+       <div id="botao">
+                
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+      </div>
+        <div id="id01" class="modal">
+          
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Fechar">&times;</span>
+              <img src="usuario.png" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Usuário</b></label>
+              <input type="text" placeholder="Nome de Usuário" name="uname" required>
+        
+              <label for="psw"><b>Senha</b></label>
+              <input type="password" placeholder="Senha" name="psw" required>
+                
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Lembrar de mim
+              </label>
+            </div>
+        
+            <div class="container2" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">Esqueceu a senha?</a></span>
+            </div>
+          </form>
+        </div>
+ 
+      <script src="script.js"></script>
+      
+      <a href="pag.html">PAGINA</a>
+</body>
+</html>
