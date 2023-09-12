@@ -1,0 +1,117 @@
+body{
+
+   
+    background-image: url('terra.jpg');
+   
+height: 630px;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+h1{
+   padding: 90px;
+    
+
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+    p{
+        margin: 80px;
+  text-align: center;
+    color: white;
+    
+    font-size: x-large;
+    }
+    .botoes{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: (228, 255, 184);
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        position: absolute;
+    bottom: 10px; /* Ajuste a distância a partir da parte inferior conforme necessário */
+    left: 50%; /* Para centralizar o botão horizontalmente */
+    transform: translateX(-50%); 
+       
+    
+    }
+    .buton{
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        padding-right: 155px;
+
+
+
+
+
+        
+
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        text-align: center; 
+    }
+    a:link, a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 15px;
+      }
+
+    header{
+       
+        width: 50%; /* Define a largura desejada para o cabeçalho */
+    margin: 0 auto; /* Centraliza horizontalmente o cabeçalho */
+    text-align: center;
+        padding: 0px;
+      
+       border-radius: 50%;
+    font-size: 20px;
+
+background-color: #f44336;
+
+
+        
+
+     
+        border: none;
+        cursor: pointer;
+        text-align: center; 
+      }
+
+      aside{
+
+       
+        width: 50%; /* Define a largura desejada para o cabeçalho */
+    margin: 0 auto; /* Centraliza horizontalmente o cabeçalho */
+    text-align: center;
+        padding: 0px;
+      
+       border-radius: 5%;
+    
+
+background-color: #f44336;
+
+
+        
+
+     
+        border: none;
+        cursor: pointer;
+        text-align: center; 
+      }
+
+
+
